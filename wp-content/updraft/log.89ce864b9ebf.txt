@@ -1,0 +1,244 @@
+0000.000 (0) Opened log file at time: Mon, 11 Jan 2021 15:16:40 +0000 on http://localhost/wordpress
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.4.8 (apache2handler, Windows NT MININT-EMH87RP 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.13-MariaDB WPLANG: fr_FR Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.8 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 34.9M | 4M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 164544.1 MB
+0000.009 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.011 (0) Semaphore (fd, wp_options) being initialised
+0000.015 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.020 (0) Set semaphore last lock (fd) time to 2021-01-11 15:16:40
+0000.022 (0) Semaphore lock (fd) complete
+0000.027 (0) Backup run: resumption=0, nonce=89ce864b9ebf, file_nonce=89ce864b9ebf begun at=1610378200 (0s ago), job type=backup
+0000.030 (0) Scheduling a resumption (1) after 300 seconds (1610378500) in case this run gets aborted
+0000.044 (0) Checking if we have a zip executable available
+0000.046 (0) Creation of backups of directories: beginning
+0000.052 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.701 (0) Total entities for the zip file: 257 directories, 1559 files (0 skipped as non-modified), 28.7 MB
+0000.750 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.798 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.846 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.891 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.945 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.000 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.033 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.066 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.084 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 1559 files batched, 853 (853) added so far); re-opening (prior size: 0 KB)
+0003.402 (0) A useful amount of data was added after this amount of zip processing: 4.1 s (normalised: 4.1 s, rate: 6258.8 KB/s)
+0003.405 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.122015953064, normalised_time=4.0902523066399, max_time=3.4031240940094, data points known=1, old_max_bytes=26214400, new_max_bytes=38453960)
+0003.429 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 900 files added (on-disk size: 7936 KB)
+0003.461 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 1000 files added (on-disk size: 7936 KB)
+0003.512 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 1100 files added (on-disk size: 7936 KB)
+0003.546 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 1200 files added (on-disk size: 7936 KB)
+0003.579 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 1300 files added (on-disk size: 7936 KB)
+0003.610 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 1400 files added (on-disk size: 7936 KB)
+0003.643 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip.tmp: 1500 files added (on-disk size: 7936 KB)
+0004.246 (0) Created plugins zip (0) - 9163.6 KB in 4.2 s (2187.5 KB/s) (sha1: 7e0d0902d21058aea1cfd15e038ab341353bccba, sha256: 7750ba1d16525fd63249556cda5794a819264ca9b78a2341d3602e995ce1b1c2)
+0004.251 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.508 (0) Total entities for the zip file: 98 directories, 427 files (0 skipped as non-modified), 7.3 MB
+0004.827 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.807 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.920 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.286 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.4 MB, 361 (361) files added so far); re-opening (prior size: 0 KB)
+0007.733 (0) Zip: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-themes.zip.tmp: 400 files added (on-disk size: 4324.6 KB)
+0008.082 (0) Created themes zip (0) - 4775.9 KB in 3.8 s (1259.6 KB/s) (sha1: b03decd60ac8d3f48dc4725391507d739a8ffd1b, sha256: 3bf8f1e71a296335546d3c16b7efe5b6be47f1def4024dfe02941a39edcb2530)
+0008.087 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.089 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content/uploads
+0008.091 (0) finding files: 2021: adding to list (1)
+0008.092 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.132 (0) Total entities for the zip file: 2 directories, 80 files (0 skipped as non-modified), 23.8 MB
+0008.619 (0) Created uploads zip (0) - 24421.2 KB in 0.5 s (46676.3 KB/s) (sha1: 416031df6212e9058c0729cfffe2c43f66b56b5d, sha256: 79924999f392d044c49956fe878d9a9cccdbdb54ac93f124201fce7623ca9fdf)
+0008.624 (0) Beginning backup of other directories found in the content directory (index: 0)
+0008.625 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0008.627 (0) Looking for candidates to backup in: C:\xampp\htdocs\wordpress/wp-content
+0008.629 (0) finding files: index.php: adding to list (1)
+0008.631 (0) finding files: languages: adding to list (2)
+0008.633 (0) finding files: plugins: skipping: this is the plugins directory
+0008.634 (0) finding files: themes: skipping: this is the themes directory
+0008.635 (0) finding files: updraft: skipping: this is the updraft directory
+0008.637 (0) finding files: upgrade: skipping: excluded by options
+0008.638 (0) finding files: uploads: skipping: this is the uploads directory
+0008.666 (0) Total entities for the zip file: 3 directories, 75 files (0 skipped as non-modified), 3.2 MB
+0009.031 (0) Created others zip (0) - 922 KB in 0.4 s (2365.2 KB/s) (sha1: 4250c26800fbaf71d4a6158b64c7b57af0adcd0f, sha256: e39a831bf4c2fc3bae9c4b4a3b7c57e6a5c808c7d959a92cf661c8aa5a0105bb)
+0009.038 (0) Saving backup status to database (elements: 8)
+0009.040 (0) Beginning creation of database dump (WordPress DB)
+0009.041 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0009.059 (0) Table wp_options: Total expected rows (approximate): 209
+0009.119 (0) Table wp_options: Rows added in this batch (next record: 275): 208 (uncompressed bytes in this segment=716291) in 0.06 seconds
+0009.139 (0) Table wp_options: finishing file(s) (2, 151.4 KB)
+0009.143 (0) Table wp_users: Total expected rows (approximate): 1
+0009.158 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1357) in 0.01 seconds
+0009.168 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0009.172 (0) Table wp_usermeta: Total expected rows (approximate): 23
+0009.182 (0) Table wp_usermeta: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=2079) in 0.01 seconds
+0009.196 (0) Table wp_usermeta: finishing file(s) (2, 1.1 KB)
+0009.205 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0009.222 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.02 seconds
+0009.235 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0009.239 (0) Table wp_comments: Total expected rows (approximate): 1
+0009.252 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2178) in 0.01 seconds
+0009.273 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0009.278 (0) Table wp_links: Total expected rows (approximate): 0
+0009.292 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.01 seconds
+0009.306 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0009.311 (0) Table wp_postmeta: Total expected rows (approximate): 93
+0009.330 (0) Table wp_postmeta: Rows added in this batch (next record: 115): 93 (uncompressed bytes in this segment=24941) in 0.02 seconds
+0009.342 (0) Table wp_postmeta: finishing file(s) (2, 4 KB)
+0009.346 (0) Table wp_posts: Total expected rows (approximate): 42
+0009.367 (0) Table wp_posts: Rows added in this batch (next record: 47): 42 (uncompressed bytes in this segment=42609) in 0.02 seconds
+0009.382 (0) Table wp_posts: finishing file(s) (2, 7.3 KB)
+0009.387 (0) Table wp_term_relationships: Total expected rows (approximate): 5
+0009.407 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 5 (uncompressed bytes in this segment=744) in 0.02 seconds
+0009.421 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0009.425 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0009.441 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=970) in 0.01 seconds
+0009.453 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0009.457 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0009.467 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0009.477 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0009.481 (0) Table wp_terms: Total expected rows (approximate): 3
+0009.492 (0) Table wp_terms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=798) in 0.01 seconds
+0009.502 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0009.504 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_options.table.tmpr276.gz (1/12): adding to final database dump
+0009.538 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_options.table.gz (2/12): adding to final database dump
+0009.540 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_users.table.tmpr2.gz (3/12): adding to final database dump
+0009.542 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_users.table.gz (4/12): adding to final database dump
+0009.543 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_usermeta.table.tmpr24.gz (5/12): adding to final database dump
+0009.546 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_usermeta.table.gz (6/12): adding to final database dump
+0009.547 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_commentmeta.table.tmpr0.gz (7/12): adding to final database dump
+0009.549 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_commentmeta.table.gz (8/12): adding to final database dump
+0009.550 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_comments.table.tmpr2.gz (9/12): adding to final database dump
+0009.552 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_comments.table.gz (10/12): adding to final database dump
+0009.553 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_links.table.tmpr0.gz (11/12): adding to final database dump
+0009.554 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_links.table.gz (12/12): adding to final database dump
+0009.555 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_postmeta.table.tmpr116.gz (13/12): adding to final database dump
+0009.557 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_postmeta.table.gz (14/12): adding to final database dump
+0009.559 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_posts.table.tmpr48.gz (15/12): adding to final database dump
+0009.561 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_posts.table.gz (16/12): adding to final database dump
+0009.562 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_term_relationships.table.tmpr100001.gz (17/12): adding to final database dump
+0009.564 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_term_relationships.table.gz (18/12): adding to final database dump
+0009.565 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_term_taxonomy.table.tmpr4.gz (19/12): adding to final database dump
+0009.566 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_term_taxonomy.table.gz (20/12): adding to final database dump
+0009.567 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_termmeta.table.tmpr0.gz (21/12): adding to final database dump
+0009.568 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_termmeta.table.gz (22/12): adding to final database dump
+0009.569 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_terms.table.tmpr4.gz (23/12): adding to final database dump
+0009.570 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db-table-wp_terms.table.gz (24/12): adding to final database dump
+0009.591 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db.gz: finished writing out complete database file (152 KB)
+0009.608 (0) Total database tables backed up: 12 (backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db.gz, size: 168600, sha1: adeff5643317cea11b1f2b49846102d6788f5b91, sha256: b20a72f61e5445c17a3c37491a96e582bd1757ff568463c660caa18bc27ef297)
+0009.616 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0009.618 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0009.619 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0009.620 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-others.zip: others: This file has not yet been successfully uploaded: will queue
+0009.622 (0) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db.gz: db: This file has not yet been successfully uploaded: will queue
+0009.623 (0) Saving backup history. Total backup size: 38.5 MB
+0009.626 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0009.635 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0009.638 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f92af787c888477fa28d40d358b7633f)
+0010.682 (0) Google Drive: quota usage: used=2454.4 MB, total=30720 MB, available=28265.6 MB
+0011.026 (0) Google Drive: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip: Attempting to upload to Google Drive (into folder id: 1yl8QzFBgEmhlfHhh4848ypT6ExJBLXoD)
+0011.799 (0) Googledrive chunked upload: 11.2 % uploaded (1048576)
+0012.629 (0) Googledrive chunked upload: 22.3 % uploaded (2097152)
+0072.965 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0072.967 (0) An error condition has occurred for the first time during this job
+0073.314 (0) Google Drive: quota usage: used=2454.4 MB, total=30720 MB, available=28265.6 MB
+0073.316 (0) Google Drive: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-themes.zip: Attempting to upload to Google Drive (into folder id: 1yl8QzFBgEmhlfHhh4848ypT6ExJBLXoD)
+0073.909 (0) Googledrive chunked upload: 21.4 % uploaded (1048576)
+0074.163 (0) Googledrive chunked upload: 42.9 % uploaded (2097152)
+0074.393 (0) Googledrive chunked upload: 64.3 % uploaded (3145728)
+0074.658 (0) Googledrive chunked upload: 85.8 % uploaded (4194304)
+0076.326 (0) Googledrive chunked upload: 100 % uploaded (4194304)
+0076.331 (0) Google Drive: OK: Archive backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-themes.zip uploaded in 3.01 seconds
+0076.333 (0) Recording as successfully uploaded: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-themes.zip
+0076.338 (0) Deleting local file: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-themes.zip: OK
+0076.686 (0) Google Drive: quota usage: used=2459.1 MB, total=30720 MB, available=28260.9 MB
+0076.687 (0) Google Drive: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-uploads.zip: Attempting to upload to Google Drive (into folder id: 1yl8QzFBgEmhlfHhh4848ypT6ExJBLXoD)
+0077.444 (0) Googledrive chunked upload: 4.2 % uploaded (1048576)
+0077.688 (0) Googledrive chunked upload: 8.4 % uploaded (2097152)
+0077.922 (0) Googledrive chunked upload: 12.6 % uploaded (3145728)
+0137.928 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0138.230 (0) Google Drive: quota usage: used=2459.1 MB, total=30720 MB, available=28260.9 MB
+0138.232 (0) Google Drive: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-others.zip: Attempting to upload to Google Drive (into folder id: 1yl8QzFBgEmhlfHhh4848ypT6ExJBLXoD)
+0140.154 (0) Googledrive chunked upload: 100 % uploaded
+0140.158 (0) Google Drive: OK: Archive backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-others.zip uploaded in 1.92 seconds
+0140.160 (0) Recording as successfully uploaded: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-others.zip
+0140.163 (0) Deleting local file: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-others.zip: OK
+0140.458 (0) Google Drive: quota usage: used=2460 MB, total=30720 MB, available=28260 MB
+0140.460 (0) Google Drive: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db.gz: Attempting to upload to Google Drive (into folder id: 1yl8QzFBgEmhlfHhh4848ypT6ExJBLXoD)
+0142.158 (0) Googledrive chunked upload: 100 % uploaded
+0142.165 (0) Google Drive: OK: Archive backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db.gz uploaded in 1.7 seconds
+0142.167 (0) Recording as successfully uploaded: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db.gz
+0142.172 (0) Deleting local file: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db.gz: OK
+0142.177 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0142.179 (0) Number of backup sets in history: 1; groups (db): 1
+0142.181 (0) Examining (for databases) backup set with group_id=0, nonce=89ce864b9ebf, datestamp=1610378200 (Jan 11 2021 15:16:40)
+0142.183 (0) This backup set is the backup set just made, so will not be deleted.
+0142.183 (0) Number of backup sets in history: 1; groups (files): 1
+0142.185 (0) Examining (for files) backup set with nonce=89ce864b9ebf, datestamp=1610378200 (Jan 11 2021 15:16:40)
+0142.185 (0) This backup set is the backup set just made, so will not be deleted.
+0142.187 (0) This backup set is the backup set just made, so will not be deleted.
+0142.187 (0) This backup set is the backup set just made, so will not be deleted.
+0142.187 (0) This backup set is the backup set just made, so will not be deleted.
+0142.187 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0142.189 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0142.194 (0) Resume backup (89ce864b9ebf, 0): finish run
+0142.201 (0) Decremented the semaphore (fd) by 1
+0142.204 (0) Semaphore (fd) unlocked
+0142.206 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0142.210 (0) Rescheduling resumption 1: moving to 60 seconds from now (1610378402)
+0142.212 (0) No email will/can be sent - the user has not configured an email address.
+0142.213 (0) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
+0203.343 (1) Opened log file at time: Mon, 11 Jan 2021 15:20:04 +0000 on http://localhost/wordpress
+0203.345 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.46 WP: 5.6 PHP: 7.4.8 (apache2handler, Windows NT MININT-EMH87RP 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.13-MariaDB WPLANG: fr_FR Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.8 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 26.7M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0203.347 (1) Free space on disk containing Updraft's temporary directory: 164511.1 MB
+0203.353 (1) Backup run: resumption=1, nonce=89ce864b9ebf, file_nonce=89ce864b9ebf begun at=1610378200 (204s ago), job type=backup, previous check-in=142.2s
+0203.358 (1) Scheduling a resumption (2) after 300 seconds (1610378704) in case this run gets aborted
+0203.383 (1) Checking if we have a zip executable available
+0203.386 (1) Creation of backups of directories: already finished
+0203.388 (1) Saving backup status to database (elements: 8)
+0203.395 (1) Database dump (WordPress DB): Creation was completed already
+0203.396 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0203.399 (1) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0203.400 (1) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-themes.zip: themes: This file has already been successfully uploaded
+0203.401 (1) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0203.403 (1) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-others.zip: others: This file has already been successfully uploaded
+0203.404 (1) backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-db.gz: db: This file has already been successfully uploaded
+0203.406 (1) Saving backup history. Total backup size: Unknown
+0203.409 (1) Requesting upload of the files that have not yet been successfully uploaded (2)
+0203.412 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0203.413 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f92af787c888477fa28d40d358b7633f)
+0204.659 (1) Google Drive: quota usage: used=2460.1 MB, total=30720 MB, available=28259.9 MB
+0204.661 (1) Google Drive: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip: Attempting to upload to Google Drive (into folder id: 1yl8QzFBgEmhlfHhh4848ypT6ExJBLXoD)
+0204.746 (1) Google Drive: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip: upload already began; attempting to resume from byte 2883583
+0204.961 (1) Googledrive chunked upload: 41.9 % uploaded (3932160)
+0205.189 (1) Googledrive chunked upload: 53.1 % uploaded (4980736)
+0205.423 (1) Googledrive chunked upload: 64.3 % uploaded (6029312)
+0205.669 (1) Googledrive chunked upload: 75.4 % uploaded (7077888)
+0205.874 (1) Googledrive chunked upload: 86.6 % uploaded (8126464)
+0206.084 (1) Googledrive chunked upload: 97.8 % uploaded (9175040)
+0207.432 (1) Googledrive chunked upload: 100 % uploaded (9175040)
+0207.436 (1) Google Drive: OK: Archive backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip uploaded in 2.77 seconds
+0207.438 (1) Recording as successfully uploaded: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip
+0207.443 (1) Deleting local file: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-plugins.zip: OK
+0207.743 (1) Google Drive: quota usage: used=2469.1 MB, total=30720 MB, available=28250.9 MB
+0207.746 (1) Google Drive: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-uploads.zip: Attempting to upload to Google Drive (into folder id: 1yl8QzFBgEmhlfHhh4848ypT6ExJBLXoD)
+0207.796 (1) Google Drive: backup_2021-01-11-1616_Portfolio_Sonia_Bougamha_89ce864b9ebf-uploads.zip: upload already began; attempting to resume from byte 3932159
+0208.016 (1) Googledrive chunked upload: 19.9 % uploaded (4980736)
+0208.226 (1) Googledrive chunked upload: 24.1 % uploaded (6029312)
+0208.445 (1) Googledrive chunked upload: 28.3 % uploaded (7077888)
+0208.672 (1) Googledrive chunked upload: 32.5 % uploaded (8126464)
+0208.890 (1) Googledrive chunked upload: 36.7 % uploaded (9175040)
+0268.898 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0268.899 (1) An error condition has occurred for the first time during this job
+0268.901 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0268.904 (1) Number of backup sets in history: 1; groups (db): 1
+0268.907 (1) Examining (for databases) backup set with group_id=0, nonce=89ce864b9ebf, datestamp=1610378200 (Jan 11 2021 15:16:40)
+0268.909 (1) This backup set is the backup set just made, so will not be deleted.
+0268.909 (1) Number of backup sets in history: 1; groups (files): 1
+0268.911 (1) Examining (for files) backup set with nonce=89ce864b9ebf, datestamp=1610378200 (Jan 11 2021 15:16:40)
+0268.911 (1) This backup set is the backup set just made, so will not be deleted.
+0268.914 (1) This backup set is the backup set just made, so will not be deleted.
+0268.914 (1) This backup set is the backup set just made, so will not be deleted.
+0268.915 (1) This backup set is the backup set just made, so will not be deleted.
+0268.915 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0268.918 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0268.927 (1) Resume backup (89ce864b9ebf, 1): finish run
+0268.934 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0268.940 (1) No email will/can be sent - the user has not configured an email address.
+0268.943 (1) La sauvegarde ne s'est pas terminée; une relance de la procédure est prévue
